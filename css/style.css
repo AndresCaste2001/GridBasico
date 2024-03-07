@@ -42,11 +42,11 @@ body{
     grid-area: menu;
     margin: auto;
     height: 85px;
-    /* background: lightslategray; */
+    background: var(--color-secundary);
 }
 
 .item_1 div{
-    width: 49.1%;
+    width: 49.7%;
     border-radius: 0;
     display: inline-block;
     /* background: saddlebrown; */
@@ -87,10 +87,48 @@ body{
     background: orange;
     grid-area: sales;
 }
-
+.item_3 ul{
+    list-style: none;
+}
+.item_3 ul li{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background: grey; */
+}
+.nested{
+    display: flex;
+}
+.nested select{
+    position: relative;
+    left: 250px;
+}
 .item_4{
-    background: violet;
     grid-area: balances;
+    background: var(--color-secundary);
+}
+.item_4 ul li{
+    list-style: none;
+}
+.item_4 div p{
+    font-size: 60%;
+}
+
+.item_4 div{
+    margin-top: 10px;
+    height: 50px;
+}
+.item_4 p,h3{
+    margin-left: 12px;
+}
+#Caja2{
+    background: #aef6ae;
+    height: 55px;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+#Caja2 li{
+    position: relative;
+    top: 15px;
 }
 
 .item_5{
@@ -99,9 +137,47 @@ body{
 }
 
 .item_6{
-    background: darkcyan ;
+    background: #D7F065;
     grid-area: devs;
 }
+.item_6 ul{
+    list-style: none;
+    display: inline-block;
+}
+.item_6 ul li{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+.item_6 ul p{
+    font-size: 60%;
+    position: relative;
+    top: 2px;
+}
+.item_6 ul li i{
+    font-size: 25px;
+}
+.item_6 ul li button{
+    width: 48%;
+    height: 18px;
+    font-size: 46%;
+    font-weight: bold;
+    border-radius: 2px;
+    border-width: 0;
+}
+#segundoIconI6{
+    position: relative;
+    right: 14px;
+}
+#tercerIconI6{
+    position: relative;
+    left: 20px;
+}
+#tituloI6{
+    position: relative;
+    bottom: 5px;
+}
+
 .item_7{
     background: hotpink ;
     grid-area: product;
@@ -130,7 +206,7 @@ body{
 }
 
 .container div{
-    border-radius: 0px;
+    border-radius: 10px;
 }
 .item_1__usuario ul li{
     display: inline-block;
