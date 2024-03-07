@@ -67,14 +67,22 @@ body{
     color:var(--color-font);
 }
 
+.item_1 div ul li button{
+    border-radius: 10px;
+    border: none;
+}
 
 .item_1 div ul li input{
-    border-radius: 5px;
     padding: 5px;
     border: none;
     width: 120px;
+    height: 40px;
     background: transparent;
     outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    margin-left: 8px;
 }
 
 
@@ -93,7 +101,7 @@ body{
 .item_3 ul li{
     margin-top: 10px;
     margin-left: 10px;
-    /* background: grey; */
+    background: grey;
 }
 .nested{
     display: flex;
@@ -101,6 +109,22 @@ body{
 .nested select{
     position: relative;
     left: 250px;
+}
+.daysWeek p{
+    display: inline-block;
+    margin-right: 28px;
+}
+.daysWeek{
+    text-align: center;
+    margin-top: 30px;
+}
+#Color1{
+    background: aqua;
+    width: 10%;
+}
+.weekColors{
+    background: greenyellow;
+    display: flex;
 }
 .item_4{
     grid-area: balances;
@@ -183,10 +207,17 @@ body{
     grid-area: product;
 }
 .item_8{
-    background: yellow ;
     grid-area: timeline;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
-
+.item_8 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
 @media(width < 800px){
     .container{
         width: 100%;
