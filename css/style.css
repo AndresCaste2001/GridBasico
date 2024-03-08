@@ -37,6 +37,10 @@ body{
     /* background: var(--color-secundary); */
     border-radius: 15px;
 }
+#Division2M1{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 .item_1{
     width: 100%;
     grid-area: menu;
@@ -47,7 +51,7 @@ body{
 
 .item_1 div{
     width: 49.7%;
-    border-radius: 0;
+    border-top-right-radius: 10px;
     display: inline-block;
     /* background: saddlebrown; */
 }
@@ -115,6 +119,9 @@ body{
     font-size: 35px;
     margin-left: -10px;
     left: 4%;
+    background: black;
+    border-radius: 100px;
+    
 }
 .nested2:last-child p{
     position: relative;
@@ -239,6 +246,13 @@ body{
     position: relative;
     left: 20%;
     font-size: 25px;
+    background: black;
+    background-size: cover;
+    border-radius: 50px;
+}
+#barsI5{
+    background: #D7F065;
+    overflow: hidden;
 }
 .item_5 ul li div{
     display: flex;
@@ -296,8 +310,21 @@ body{
 }
 
 .item_7{
-    background: hotpink ;
+    background: var(--color-secundary) ;
     grid-area: product;
+}
+.item_7 ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item_7 ul li{
+    background: red;
+    margin-top: 5px;
+}
+.nested7{
+    display: flex;
 }
 .item_8{
     grid-area: timeline;
@@ -306,7 +333,7 @@ body{
     align-items: center;
 }
 .item_8 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
     overflow: hidden;
     border-radius: 20px;
@@ -329,9 +356,6 @@ body{
     }
 }
 
-.container div{
-    border-radius: 10px;
-}
 .item_1__usuario ul li{
     display: inline-block;
     margin: 10px;
@@ -345,7 +369,7 @@ body{
 }
 .item_1__usuario{
     border: 0;
-    display: inline-block;
+    display: flex;
     height: 100%;
     background: linear-gradient(to left, #D7F065, #8DD9F3);
 }
