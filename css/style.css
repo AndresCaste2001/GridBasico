@@ -320,11 +320,48 @@ body{
     margin-right: 20px;
 }
 .item_7 ul li{
-    background: red;
     margin-top: 5px;
+}
+.item_7 ul li p{
+    font-size: 17px;
 }
 .nested7{
     display: flex;
+}
+.nested7:last-child{
+    margin-top: 15px;
+    font-size: 40px;
+
+}
+.nested7:last-child i{
+    position: relative;
+    margin-left: -10px;
+}
+.nested7:last-child div{
+    margin-left: 40%;
+}
+.buttonI7{
+    height: 20px;
+}
+.buttonI7 button{
+    border: none;
+    width: 65px;
+    height: 100%;
+    font-size: 80%;
+    font-weight: bold;
+    border-radius: 3px;
+    
+}
+#buttonYellowI7{
+    background: #fefc7b;
+}
+#buttonGreenI7{
+    background: #D7F065;
+    margin-left: 2px;
+}
+.switch{
+    position: relative;
+    left: 28%;
 }
 .item_8{
     grid-area: timeline;
